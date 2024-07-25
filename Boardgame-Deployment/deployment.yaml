@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: 533267043749.dkr.ecr.ap-south-1.amazonaws.com/himalaya7087::boardgame-app-38
+          image: 533267043749.dkr.ecr.ap-south-1.amazonaws.com/himalaya7087:boardgame-app-38
           imagePullPolicy: Always
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
